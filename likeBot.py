@@ -1,6 +1,5 @@
 import tweepy
 import time
-import os
 
 def get_last_seen_id(file_name):
     fread=open(file_name,'r')
