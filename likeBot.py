@@ -18,10 +18,10 @@ def put_last_seen_id(last_seen_id, file_name):
 
 file_name="C:/Users/Supriya Singh/PycharmProjects/twitterBot/venv/last_seen_id.txt"
 
-consumer_key= 'rzkYlaT2b9QXVSNecYnrm0Zpx'
-consumer_key_secret= '4ZRN5WYS2Lgo88vGoumyluZEidZEMKSwMaDaSLLeF1436pYJn1'
-acess_token= '1294229047396847616-rDwIL5US5KR3COrE20UOmKq3MfCIWl'
-access_token_secret= 'ROic6zThp3MCWAO0jKV3YjF7TlBvKyWRenltJhfTiNfA6'
+consumer_key= 'rzkYlaT2VSNecYnm0Zpx'
+consumer_key_secret= '4ZRN5WYS2LgovGoumyluZEidZEMKSwMaDaSeF1436pYJn1'
+acess_token= '1294229047396847616-rL5US5KR3COrEUOmKq3MfCIWl'
+access_token_secret= 'ROic6zThp3MKV3YjF7TlBvKyWRenltJhfTiNfA6'
 
 auth= tweepy.OAuthHandler(consumer_key,consumer_key_secret)
 auth.set_access_token(acess_token,access_token_secret)
